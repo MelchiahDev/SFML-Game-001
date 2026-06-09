@@ -1,2 +1,6 @@
 build/**
+out/**
+extern-bin/**
+.cache/**
+.vs/**
 CMakeUserPresets.json
