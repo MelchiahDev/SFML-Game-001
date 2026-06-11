@@ -1,11 +1,13 @@
 #include "Entity.hpp"
-#include "Components.hpp"
-#include <memory>
 
-Entity::Entity(const std::string& tag, size_t id)
-  : m_tag(tag)
-  , m_id(id)
-  , cShape(std::make_shared<CShape>())
+#include <memory>
+#include <tuple>
+
+Entity::Entity(const std::string &tag, size_t id)
+    : m_tag(tag)
+    , m_id(id)
+    , m_alive(true)
+    , m_components()
 {
 
 }

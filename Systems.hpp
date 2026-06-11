@@ -20,6 +20,11 @@ public:
   void run() override;
 };
 
+class SMovement : public System
+{
+public:
+  void run() override;
+};
 
 class SRender: public System
 {

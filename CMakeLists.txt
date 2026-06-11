@@ -8,6 +8,7 @@ set(WINDOWS_SFML_DIR $ENV{WINDOWS_SFML_DIR})
 set(LINUX_SFML_DIR $ENV{LINUX_SFML_DIR})
 
 add_executable(${PROJECT_NAME} main.cpp
+Vec2.cpp
 GameEngine.cpp
 EntityManager.cpp
 Entity.cpp

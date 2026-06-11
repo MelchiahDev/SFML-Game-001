@@ -4,3 +4,4 @@ extern-bin/**
 .cache/**
 .vs/**
 CMakeUserPresets.json
+compile_commands.json

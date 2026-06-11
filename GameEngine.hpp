@@ -18,8 +18,10 @@ private:
   std::shared_ptr<sf::RenderWindow> m_window;
   
   size_t m_currentFrame;
-  SRender m_sRender;
   SInput m_sInput;
+  SMovement m_sMovement;
+  SRender m_sRender;
+
 
   bool m_pause = false;
   
